@@ -25,7 +25,6 @@ class Customer {
 	public function calculateRentalFee()
 	{
 		foreach($this->rentals as $rental) {
-			// frequent renter points
 			$this->rentalAmount += $rental->getMovie()->getAmount($rental->getDaysRented());
 		}
 

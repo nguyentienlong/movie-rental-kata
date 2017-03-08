@@ -17,5 +17,4 @@ class NewReleaseMovie extends Movie implements Statement
 
         return 1;
     }
-
 }
